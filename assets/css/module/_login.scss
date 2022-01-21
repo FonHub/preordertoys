@@ -1,0 +1,36 @@
+.uk-modal-body._boxsigninbg {
+    background: url(../img/imglogin-bg.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1040px !important;
+}
+
+.signin.__form {
+    background: #fbf1e7;
+    padding: 20px;
+
+    .h3-signin-img {
+        max-width: 152px !important;
+    }
+}
+
+
+.btn_signin {
+    max-width: 142px;
+}
+
+.btn_register {
+    max-width: 121px;
+}
+
+.uk-modal-footer.uk-flex.uk-flex-between {
+    background: #e5e0c2;
+    padding: 15px 30px 0px;
+}
+
+.signin.__form,
+.uk-modal-footer._boxsignin {
+    max-width: 600px;
+    margin: auto;
+}

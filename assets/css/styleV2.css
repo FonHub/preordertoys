@@ -1,0 +1,99 @@
+/*----------------------------
+      V 2
+-----------------------------*/
+
+.section-bunble {
+    background: linear-gradient(to top, #f2dec7 50%, #e9ceab 50%);
+}
+
+.t-center {
+    text-align: center;
+}
+
+.t-left {
+    text-align: left;
+}
+
+.t-right {
+    text-align: right;
+}
+
+
+.disblock {
+    display: block;
+    margin: auto;
+}
+
+.uk-pagination._page {
+    display: block;
+}
+
+.uk-pagination._page li {
+    float: left;
+}
+
+.width-auctionjn {
+    max-width: 320px;
+    margin: 1.5rem;
+}
+
+.font16 {
+    font-size: 16px;
+}
+
+.section-main {
+    display: block;
+    padding: 100px 0px;
+}
+
+.page-auctionthai {
+    background: #d7e0cc;
+}
+
+.ma-x50 {
+    margin-left: 50px;
+}
+
+.uk-nav-default.uk-nav-parent-icon.nav-side.uk-nav {
+    background: #f7f4e7;
+    border-radius: 20px;
+}
+
+.p-product-list__body.detailTH {
+    padding: 20px;
+    min-width: auto;
+    background: #b4bc9b !important;
+}
+
+.p-product-detail__summary {
+    min-width: -webkit-fill-available;
+}
+
+.ma-t20 {
+    margin-top: 20px;
+}
+
+.ma-b20 {
+    margin-bottom: 20px;
+}
+
+.t-center {
+    text-align: center;
+}
+
+#preorderfigures .p-product-list__item-inner>.p-product-list__item-inner__box.__figures {
+    padding: 0;
+}
+
+#figures.section-figures {
+    background: #cdb6c0;
+}
+
+.p-product-list__body.detailfigures {
+    background: #9a8aaa !important;
+    padding: 20px;
+}
+
+#resin {
+    background: #efe2d3;
+}

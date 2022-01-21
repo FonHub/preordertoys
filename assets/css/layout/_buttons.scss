@@ -1,0 +1,54 @@
+/*------------------------------*\
+    BUTTONS
+\*--------------------------*/
+
+.btn {
+    text-transform: capitalize;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    width: 170px;
+    height: 50px;
+    line-height: 48px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 0;
+    letter-spacing: .4px;
+    border-radius: 2px;
+}
+
+.btn:focus,
+.btn.active,
+.btn:active {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn__block {
+    width: 100%;
+}
+
+/* Button Primary */
+.btn-signin {
+    border: 2px solid
+}
+
+.btn-signin:active,
+.btn-signin:focus,
+.btn-signin:hover {
+    background-color: transparent;
+}
+
+.btn-signin.btn__hover2:active,
+.btn-signin.btn__hover2:focus,
+.btn-signin.btn__hover2:hover {
+    background-color: transparent;
+}
+
+.btn-signin.btn__hover3:active,
+.btn-signin.btn__hover3:focus,
+.btn-signin.btn__hover3:hover {
+    background-color: transparent;
+}

@@ -1,0 +1,144 @@
+/*---------------------
+     VARIABLES
+----------------------*/
+
+/* Color Variables */
+
+$color-green: #bdc9ab;
+
+/*-------------------
+    lists
+-------------------*/
+.section-banner__content.item-list__main {
+    padding: 90px 0px;
+}
+
+.item-list__main {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 9px;
+    display: block;
+    position: relative;
+    padding: 10px;
+    background-size: auto;
+
+    :hover,
+    :focus,
+    :active {
+        border: none;
+        text-decoration: none;
+    }
+
+}
+
+.list-items li {
+    position: relative;
+    padding-left: 26px;
+
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+
+    &:before {
+        content: "\f00c";
+        font-family: 'Fontawesome';
+        position: absolute;
+        left: 0;
+    }
+}
+
+.item-list__mainphoto {
+    margin-bottom: 10px;
+    display: block;
+    position: relative;
+
+    &:before {
+        content: '';
+        display: inline;
+        position: absolute;
+        width: 118px;
+        height: 127px;
+        z-index: 1020;
+        top: -45px;
+        left: -40px;
+        background: url('img/rose.png');
+        background-size: contain;
+    }
+
+}
+
+.item-list__maintitel {
+    text-align: center;
+}
+
+.nav-side .uk-nav-sub {
+    padding: 0px;
+
+    &>li {
+        padding: 0px 5px;
+        background-color: #d7e0cb;
+
+        &>a {
+            font-size: 1.2rem;
+            color: black;
+            padding-left: 10px;
+
+        }
+
+        &>a:hover,
+        a:focus,
+        a:active {
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s;
+        }
+    }
+}
+
+
+.h3-catname {
+    max-width: 363px;
+    height: auto;
+    padding: 0;
+    margin-bottom: -30px;
+}
+
+.h3-sns {
+    max-width: 300px;
+    height: auto;
+    padding: 0;
+
+}
+
+.blog-sns {
+    padding: 0px;
+
+    &>.uk-nav li {
+        padding: 5px;
+        margin: auto;
+
+        &>a {
+            font-size: 1.5rem;
+            color: #3b403a;
+            font-family: initial;
+            text-align: center;
+
+            &>span {
+                margin-right: 10px;
+            }
+
+        }
+
+
+    }
+
+}
+
+.icon-sns {
+    max-width: 75px;
+}
+
+.blog-partner {
+    display: block;
+    padding: 20px;
+}

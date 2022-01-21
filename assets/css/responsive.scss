@@ -1,0 +1,183 @@
+/*
+-----------------------------------------------------------------------------
+ 
+ responsive
+-----------------------------------------------------------------------------*/
+@media screen and (min-device-width:1370px) {
+    .page-header__logo {
+        width: 80%;
+    }
+}
+
+@media screen and (max-device-width:1199px) {
+    .page-header__cart:after {
+        display: none;
+    }
+
+    .mainmenu .uk-navbar-nav>li>a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-device-width:960px) and (max-device-width:1420px) {
+    .page-header__logo {
+        width: 80%;
+    }
+
+    .page-header__logo {
+        margin-left: 3vw;
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    header {
+        background-size: auto, contain, auto;
+        background-position: left bottom, top center, left top;
+    }
+
+    .page-header__time {
+        width: 80%;
+        height: auto;
+        background-size: contain;
+        background-repeat: repeat-x;
+        padding: 5px;
+    }
+
+
+    .time-home {
+        display: block;
+        width: 100%;
+    }
+
+    .page-header__left {
+        width: 20%;
+    }
+
+    .page-header__center {
+        width: 60%;
+    }
+
+    .page-header__right {
+        width: 20%;
+    }
+
+    .page-header__cart {
+        height: auto;
+        width: 80%;
+        background-size: contain;
+        padding: 0;
+    }
+
+    .page-header__logo {
+        margin-left: 0 !important;
+        padding-top: 5vw;
+    }
+
+    .page-header__time:after,
+    .page-header__cart:after {
+        display: none;
+    }
+
+    .btn-addtocart {
+        height: auto;
+    }
+
+    .time-date {
+        font-size: 1rem;
+        margin-left: 20px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    }
+
+
+
+    .time-zone,
+    .time-hours,
+    .icon_clock,
+    .page-header__sing-in {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {}
+
+@media screen and (device-width:768px) {}
+
+@media only screen and (min-width: 769px) and (max-width: 980px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 980px) {}
+
+@media only screen and (min-width: 321px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 360px) and (max-width: 480px) {}
+
+@media only screen and (width: 360px) {}
+
+@media only screen and (max-width: 320px) {
+    header {
+        background-size: auto, contain, auto;
+        background-position: left bottom, top center, left top;
+    }
+
+    .page-header__time {
+        width: 80%;
+        height: auto;
+        background-size: contain;
+        background-repeat: repeat-x;
+        padding: 5px;
+    }
+
+
+    .time-home {
+        display: block;
+        width: 100%;
+    }
+
+    .page-header__left {
+        width: 20%;
+    }
+
+    .page-header__center {
+        width: 60%;
+    }
+
+    .page-header__right {
+        width: 20%;
+    }
+
+    .page-header__cart {
+        height: auto;
+        width: 80%;
+        background-size: contain;
+        padding: 0;
+    }
+
+    .page-header__logo {
+        margin-left: 0 !important;
+        padding-top: 5vw;
+    }
+
+    .page-header__time:after,
+    .page-header__cart:after {
+        display: none;
+    }
+
+    .btn-addtocart {
+        height: auto;
+    }
+
+    .time-date {
+        font-size: 1rem;
+        margin-left: 20px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+    }
+
+
+
+    .time-zone,
+    .time-hours,
+    .icon_clock {
+        display: none;
+    }
+}

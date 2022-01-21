@@ -1,0 +1,29 @@
+/*----------------------
+    Pagination
+-----------------------*/
+.pagination li {
+    margin-right: 10px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    a {
+        font-size: 18px;
+        font-weight: 700;
+        display: block;
+        width: 50px;
+        height: 50px;
+        line-height: 48px;
+        background-color: transparent;
+        text-align: center;
+        border: 1px solid #eaeaea;
+        border-radius: 2px;
+    }
+
+    a:hover,
+    a.current {
+        color: white;
+    }
+}
+

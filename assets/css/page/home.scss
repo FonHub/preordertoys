@@ -1,0 +1,356 @@
+/*----------------------------
+      section banner
+-----------------------------*/
+
+.h3title {
+    max-width: 10vw !important;
+    margin-bottom: 0;
+}
+
+.block-center {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.align-end {
+    justify-items: flex-end;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: end;
+}
+
+.lineHxs {
+    line-height: 1;
+}
+
+.lineH0 {
+    line-height: 0;
+}
+
+.ml-1rem {
+    margin-left: 1rem !important;
+}
+
+/*----------------------------
+      section
+-----------------------------*/
+
+
+.section-aucion,
+.section-auctionjapan {
+    display: block;
+    position: relative;
+    background: url('img/bg-aution.png');
+    background-repeat: repeat;
+    padding-bottom: 5rem;
+
+}
+
+.blog-cat {
+    display: block;
+    margin: 80px 0px;
+}
+
+.blog-cat .nav-side {
+    padding: 20px;
+
+    &>li {
+        padding: 0px 5px;
+        list-style: url('img/icon-bunny.png');
+        margin-left: 40px;
+
+        &>a {
+            font-size: 1.5rem;
+            color: #000;
+
+        }
+
+    }
+
+    &>li.uk-parent.uk-open {
+        background-color: #b4bc9b;
+        list-style: url('img/icon-bunny-hover.png');
+        border-radius: 10px;
+        padding: 0;
+
+        &>a {
+            color: white;
+            padding-left: 10px;
+
+        }
+
+    }
+}
+
+.h3-home-img {
+    max-width: 100%;
+}
+
+.day-coun {
+    font-size: 1.5rem !important;
+    font-weight: 500 !important;
+}
+
+.time-coun {
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+}
+
+.section-resin {
+    padding: 0 0 3rem 0;
+    background-image: url(../img/home/line-gold.png), url(../img/home/line-gold.png);
+    background-color: #D3D8BF;
+    background-position: left bottom, left top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.h3-resin {
+    max-width: 100%;
+}
+
+.main-preorder.resin {
+    display: block;
+    position: relative;
+}
+
+.p-product-list__item-inner._resin {
+    background: url(img/bg-preresin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 7vw 0vw 0vw 7vw;
+}
+
+.p-product-list__item-inner._resin:before {
+    content: '';
+    display: inline;
+    position: absolute;
+    width: 40%;
+    height: 65px;
+    top: 0px;
+    left: -30px;
+    background: url('img/label-recomment.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 7vw 0vw 0vw 7vw;
+    z-index: 1;
+
+}
+
+.p-product-list__item-detail._resin {
+    padding: 2vw;
+    display: block;
+    position: relative;
+
+    .p-product-list__name h3 {
+        font-weight: 400;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+    }
+
+    .p-product-list__price {
+        color: #000;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .p-product-list__detail {
+        color: #6c7a40;
+        margin-top: 15px;
+    }
+
+    .btn-order {
+        max-width: 30%;
+    }
+
+    .p-product-list__order {
+        display: block;
+        padding-top: 15px;
+    }
+}
+
+.main-preorder._resin {
+    padding-top: 3rem;
+}
+
+.item-preorder._resin {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 3rem 0rem 3rem 5rem;
+}
+
+.listitem-preorder._resin {
+    background: url(img/bg-letter.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2vw 0vw 0vw 2vw;
+}
+
+.h3home-resin {
+    max-width: 20%;
+    padding: 15px 0px;
+}
+
+.auction-tag {
+    display: block;
+    position: relative;
+    background: #f2ece4;
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.tag-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+
+    li {
+        color: #ab835c;
+        font-family: initial;
+        text-transform: uppercase;
+    }
+}
+
+.H3-autionjn {
+    max-width: 70%;
+    margin-bottom: 3rem;
+}
+
+.detailbock {
+    max-width: 590px;
+    max-height: 712px;
+}
+
+.auctionjn-item {
+    background: url(img/bg-auctionjn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 2vw 0vw 0vw 2vw;
+    display: flex;
+    align-items: center;
+    background-size: 70%;
+    background-position: 50% 50%;
+    max-width: 590px !important;
+    height: 721px;
+}
+
+.jnitem__box {
+    display: block;
+    text-align: center;
+}
+
+.jnitem_currency {
+    font-size: 5rem;
+    color: white;
+    font-weight: 400;
+    font-family: inherit;
+    text-align: center;
+    line-height: 1;
+
+    span {
+        font-size: 2rem;
+        line-height: 1;
+    }
+}
+
+.jnitem_p {
+    font-family: inherit;
+    font-weight: 400;
+    color: #d28758;
+    font-size: 1.5rem;
+}
+
+.jnitem_time {
+    max-width: 250px;
+    margin: auto;
+    background: #9d9d6c;
+    display: flex;
+    position: relative;
+    padding: 5px;
+    color: #fff;
+
+    .uk-countdown-number {
+        font-size: 1.5rem !important;
+    }
+
+    span {
+        margin-right: 0px;
+    }
+}
+
+.icon-clockjn {
+    max-width: 24px;
+}
+
+
+.ma-lxs {
+    margin-left: 1rem !important;
+}
+
+.auctionjn__box {
+    padding: 3rem 8rem 8rem;
+}
+
+.auction_1__img {
+    max-width: 490px !important;
+    box-shadow: 30px 30px 0px 3px rgba(233, 206, 171, .6);
+}
+
+.auctionjn-itemlist {
+    margin-bottom: 3.5rem;
+}
+
+.auction_2__img {
+    box-shadow: 10px 10px 0px 3px rgba(233, 206, 171, .6);
+}
+
+.mainblock {
+    display: block;
+    position: relative;
+}
+
+
+.mainblock .auctionjn-itemlist:before {
+    content: '';
+    display: inline;
+    position: absolute;
+    width: 40%;
+    height: 65px;
+    top: 0px;
+    left: 0px;
+    background: url(img/label-recomment.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 10px;
+    z-index: 1;
+}
+
+.bunble_home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn-shopnow {
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+.img-bundlemain {
+    max-width: 500px;
+}
+
+.btn-viewall {
+    max-width: 100px;
+}
+
+.bundle-img01 {
+    max-width: 490px;
+}

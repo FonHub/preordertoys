@@ -1,0 +1,21 @@
+/*---------------------
+     VARIABLES
+----------------------*/
+
+/* Color Variables */
+$color-gold: #a37238;
+
+
+.gold {
+    background-color: rgba($color-gold, 95%);
+    background: linear-gradient(90deg, rgba(163, 114, 56, 1) 0%, rgba(249, 224, 179, 1) 50%, rgba(160, 113, 55, 1) 100%);
+}
+
+.gn_1 {
+    background-color: $color-green;
+}
+
+/* shadow */
+.shadow-1 {
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}

@@ -1,0 +1,52 @@
+/*--------------------
+    Tabs
+--------------------*/
+.nav-tabs {
+    border-bottom: none;
+
+    .nav__link {
+        display: block;
+        position: relative;
+        padding: 0 0 6px;
+        margin: 0 30px 20px 0;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1;
+
+        &:last-of-type {
+            margin-right: 0;
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+        }
+    }
+
+    .nav__link.active,
+    .nav__link:hover {
+
+        &:after {
+            width: 100%;
+        }
+    }
+}
+
+.nav-tabs-white .nav__link {
+
+    &.active,
+    &:hover {
+        color: white;
+    }
+
+    &:after {
+        background-color: #fff;
+    }
+}
+
+/* Mobile Phones and tablets */

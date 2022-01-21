@@ -1,0 +1,16 @@
+/*----------------------------
+      Navbar & Header
+-----------------------------*/
+.header {
+    position: relative;
+    z-index: 1010;
+}
+
+/* Navbar */
+.navbar {
+    padding: 0;
+    height: 100px;
+    max-height: 100px;
+    background-color: white;
+    border-bottom: 1px solid #ededed;
+}
