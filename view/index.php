@@ -85,7 +85,7 @@
             start auction japan
             ------------------------------->
             <div class="section-auctionjapan">
-                <div class="uk-container-expand">
+                <div class="uk-container uk-container-large">
                     <?php include('../view/auction-listjapan.php'); ?>
                 </div>
             </div>
