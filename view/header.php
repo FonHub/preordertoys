@@ -157,12 +157,12 @@
                                 <div uk-dropdown="pos: bottom-justify">
                                     <ul class="uk-nav uk-dropdown-nav text_f">
                                         <li class="uk-active"><a href="MyAccount.php">ข้อมูลทั่วไป</a></li>
-                                        <li><a href="#">เติมเงิน</a></li>
-                                        <li><a href="#">การผ่อน</a></li>
-                                        <li><a href="#">การมัดจำ</a></li>
-                                        <li><a href="#">ประมูล</a></li>
-                                        <li><a href="#">รายการพรีออเดอร์</a></li>
-                                        <li><a href="#">อื่นๆ</a></li>
+                                        <li><a href="MyTopup.php">เติมเงิน</a></li>
+                                        <li><a href="Myinstallment.php">การผ่อน</a></li>
+                                        <li><a href="MyDeposit.php">การมัดจำ</a></li>
+                                        <li><a href="MyAuction.php">ประมูล</a></li>
+                                        <li><a href="MyPreorder.php">รายการพรีออเดอร์</a></li>
+                                        <li><a href="MyOther.php">อื่นๆ</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -259,25 +259,30 @@
                                 <label>รหัสผ่าน<span class="text-danger">*</span><input class="uk-input" type="number" placeholder=""> </label>
                                 <label>ยืนยันรหัสผ่าน<span class="text-danger">*</span><input class="uk-input" type="number" placeholder=""> </label>
                             </div>
-                            <div class="uk-column-1-1@s uk-column-1-3@m uk-margin ">
-                                <label>คำนำหน้า<span class="text-danger">*</span>
-                                    <div>
-                                        <div uk-form-custom="target: > * > span:first-child">
-                                            <select>
-                                                <option value=""></option>
-                                                <option value="1">นาง</option>
-                                                <option value="2">นางสาว</option>
-                                            </select>
-                                            <button class="uk-button uk-button-default btn-style2" type="button" tabindex="-1">
-                                                <span></span>
-                                                <span uk-icon="icon: chevron-down"></span>
-                                            </button>
+                            <div class="uk-column-1-1@s uk-column-1-2@m uk-margin ">
+                                <div class="uk-flex">
+                                    <label class="uk-form-label">คำนำหน้า<span>*</span>
+                                        <div>
+                                            <div uk-form-custom="target: > * > span:first-child">
+                                                <select>
+                                                    <option value=""></option>
+                                                    <option value="1">นาง</option>
+                                                    <option value="2">นางสาว</option>
+                                                </select>
+                                                <button class="uk-button uk-button-default btn-style2" type="button" tabindex="-1">
+                                                    <span></span>
+                                                    <span uk-icon="icon: chevron-down"></span>
+                                                </button>
+                                            </div>
                                         </div>
+                                    </label>
+                                    <div class="uk-form-controls btn__block">
+                                        <label>ชื่อ<span class="text-danger">*</span><input class="uk-input" type="text" placeholder=""> </label>
                                     </div>
-                                </label>
-                                <label>ชื่อ<span class="text-danger">*</span><input class="uk-input" type="text" placeholder=""> </label>
+                                </div>
                                 <label>นามสกุล<span class="text-danger">*</span><input class="uk-input" type="text" placeholder=""> </label>
                             </div>
+
                             <div class="uk-column-1-1@s uk-column-1-2@m uk-margin ">
                                 <label>วันเกิด(ว/ด/ป)<span class="text-danger">*</span><input class="uk-input" type="date" placeholder=""></label>
                                 <label>บัตรประชาชน<span class="text-danger">*</span><input class="uk-input" type="number" placeholder=""> </label>

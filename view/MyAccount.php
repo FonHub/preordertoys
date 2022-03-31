@@ -27,39 +27,40 @@
 
                     <div class="uk-margin">
                         <nav class="navbar navbar-expand-custom navbar-mainbg" style="height: 65px;">
-                            <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <i class="fas fa-bars text-white"></i>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                            <div class="collapse navbar-collapse _mymenu_pc" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto">
                                     <div class="hori-selector">
                                         <div class="left"></div>
                                         <div class="right"></div>
                                     </div>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>ประมูล</a>
+                                        <a class="nav-link" href="MyAuction.php"><i class="fas fa-tachometer-alt"></i>ประมูล</a>
                                     </li>
                                     <li class="nav-item active">
-                                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>โปร์ไฟล์ของฉัน</a>
+                                        <a class="nav-link" href="MyAccount.php"><i class="far fa-address-book"></i>โปร์ไฟล์ของฉัน</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>เติมเงิน</a>
+                                        <a class="nav-link" href="MyTopup.php"><i class="far fa-clone"></i>เติมเงิน</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>การผ่อน</a>
+                                        <a class="nav-link" href="Myinstallment.php"><i class="far fa-calendar-alt"></i>การผ่อน</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="javascript:void(0);"><i class="fas fa-calculator"></i>การมัดจำ</a>
+                                        <a class="nav-link" href="MyDeposit.php"><i class="fas fa-calculator"></i>การมัดจำ</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="javascript:void(0);"><i class="fas fa-dice-d6"></i>รายการพรีออเดอร์</a>
+                                        <a class="nav-link" href="MyPreorder.php"><i class="fas fa-dice-d6"></i>รายการพรีออเดอร์</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>อื่นๆ</a>
+                                        <a class="nav-link" href="MyOther.php"><i class="far fa-copy"></i>อื่นๆ</a>
                                     </li>
                                 </ul>
                             </div>
                         </nav>
+                        <!-- menu mobile  -->
+                        <?php include('../view/mymenuMB.php'); ?>
+                        <!-- menu mobile  -->
                     </div>
                     <div>
                         <!-- form -->
@@ -75,23 +76,27 @@
                                         <input class="uk-input" type="text" placeholder="">
                                     </div>
                                 </div>
-                                <div class="uk-column-1-1@s uk-column-1-3@m uk-margin ">
-                                    <label>คำนำหน้า<span>*</span>
-                                        <div>
-                                            <div uk-form-custom="target: > * > span:first-child">
-                                                <select>
-                                                    <option value=""></option>
-                                                    <option value="1">นาง</option>
-                                                    <option value="2">นางสาว</option>
-                                                </select>
-                                                <button class="uk-button uk-button-default btn-style2" type="button" tabindex="-1">
-                                                    <span></span>
-                                                    <span uk-icon="icon: chevron-down"></span>
-                                                </button>
+                                <div class="uk-column-1-1@s uk-column-1-2@m uk-margin ">
+                                    <div class="uk-flex">
+                                        <label class="uk-form-label">คำนำหน้า<span>*</span>
+                                            <div>
+                                                <div uk-form-custom="target: > * > span:first-child">
+                                                    <select>
+                                                        <option value=""></option>
+                                                        <option value="1">นาง</option>
+                                                        <option value="2">นางสาว</option>
+                                                    </select>
+                                                    <button class="uk-button uk-button-default btn-style2" type="button" tabindex="-1">
+                                                        <span></span>
+                                                        <span uk-icon="icon: chevron-down"></span>
+                                                    </button>
+                                                </div>
                                             </div>
+                                        </label>
+                                        <div class="uk-form-controls btn__block">
+                                            <label>ชื่อ<span class="text-danger">*</span><input class="uk-input" type="text" placeholder=""> </label>
                                         </div>
-                                    </label>
-                                    <label>ชื่อ<span class="text-danger">*</span><input class="uk-input" type="text" placeholder=""> </label>
+                                    </div>
                                     <label>นามสกุล<span class="text-danger">*</span><input class="uk-input" type="text" placeholder=""> </label>
                                 </div>
                                 <div class="uk-column-1-1@s uk-column-1-2@m uk-margin ">
@@ -194,27 +199,6 @@
             // Add active class to target link
             target.parent().addClass('active');
         });
-
-
-
-
-        // Add active class on another page linked
-        // ==========================================
-        // $(window).on('load',function () {
-        //     var current = location.pathname;
-        //     console.log(current);
-        //     $('#navbarSupportedContent ul li a').each(function(){
-        //         var $this = $(this);
-        //         // if the current path is like this link, make it active
-        //         if($this.attr('href').indexOf(current) !== -1){
-        //             $this.parent().addClass('active');
-        //             $this.parents('.menu-submenu').addClass('show-dropdown');
-        //             $this.parents('.menu-submenu').parent().addClass('active');
-        //         }else{
-        //             $this.parent().removeClass('active');
-        //         }
-        //     })
-        // });
     </script>
     <!-- body -->
 </body>

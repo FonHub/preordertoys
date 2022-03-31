@@ -370,3 +370,116 @@ input.invalid {
         left: -25px;
     }
 }
+
+/* MyAuction */
+
+.widjet.widjet-time-work .uk-button-widjet {
+    background-color: transparent;
+    color: #333;
+    font-weight: bold;
+    margin: 10px 0px;
+    border-radius: 0px;
+    padding: 5px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.widjet.widjet-time-work .uk-tab-left::before {
+    border: none;
+}
+
+
+.widjet.widjet-time-work .uk-button-widjet:hover,
+.widjet.widjet-time-work .uk-button-widjet:focus,
+.widjet.widjet-time-work .uk-button-widjet:active {
+    border-color: #754c24;
+    color: #754c24;
+}
+
+.img-upload {
+    margin-top: -25px;
+    width: 80%;
+}
+
+.bottom-claim {
+    width: 30%;
+    margin-top: 15px;
+}
+
+.num-price {
+    font-size: 30px;
+    color: #ad3b3a;
+    margin: 0;
+}
+
+.text-price {
+    font-size: 16px;
+    margin: 0;
+}
+
+.h3-home-img-top {
+    max-width: 70%;
+    margin-left: 100px;
+}
+
+.title-num-page {
+    text-align: right;
+    margin: 0;
+    color: #7c7b46;
+}
+
+.back-number {
+    text-align: right;
+}
+
+.back-num-col {
+    background-color: #eae0d3;
+    width: min-content;
+    text-align: right;
+    text-align-last: right;
+    float: right;
+    padding: 2px 0px;
+}
+
+.number1 {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 10px;
+    background: #b4bc9b;
+    padding: 0px 10px;
+}
+
+.number2 {
+    color: #9d9d6c;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.number2 {
+    color: #9d9d6c;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.ma-left {
+    margin-left: 15px;
+}
+
+/* MyAuction */
+
+._mymenu_pc {
+    display: block;
+}
+
+._mymenu_mb {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    ._mymenu_pc {
+        display: none;
+    }
+
+    ._mymenu_mb {
+        display: block;
+    }
+}
